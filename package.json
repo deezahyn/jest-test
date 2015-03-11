@@ -8,6 +8,24 @@
   },
   "jest": {
     "scriptPreprocessor": "./preprocessor.js",
-    "unmockedModulePathPatterns": ["node_modules/react"]
-  }
+    "unmockedModulePathPatterns": [
+      "node_modules/react"
+    ]
+  },
+  "name": "react",
+  "version": "1.0.0",
+  "main": "CheckboxWithLabel.js",
+  "devDependencies": {
+    "jest-cli": "^0.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deezahyn/jest-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deezahyn/jest-test/issues"
+  },
+  "homepage": "https://github.com/deezahyn/jest-test"
 }
